@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Squish Merge — Free Browser Puzzle</title>
+<meta name="description" content="Drop cute squishies, merge matches, evolve to Mega Soft. Free cozy merge puzzle PWA." />
+<meta property="og:title" content="Squish Merge" />
+<meta property="og:description" content="Free cozy drop-and-merge puzzle with original art. Play in browser." />
+<meta property="og:image" content="icon-512.png" />
+<link rel="icon" href="icon-192.png" />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet" />
+<style>
+:root{--ink:#4a2f5c;--soft:#7d5f93;--pink:#ff7ab8;--lilac:#b48cff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Nunito,system-ui,sans-serif;color:var(--ink);min-height:100vh;
+  background:linear-gradient(165deg,#fff0f7,#efe6ff 50%,#e8f8ff);padding:28px 16px 48px}
+.wrap{max-width:720px;margin:0 auto;text-align:center}
+.icon{width:120px;height:120px;border-radius:28px;box-shadow:0 18px 40px rgba(255,120,180,.35);margin-bottom:16px}
+h1{font-weight:900;font-size:clamp(2.2rem,8vw,3.2rem);
+  background:linear-gradient(120deg,#ff6bab,#a78bfa,#60c8ff);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);margin:8px 0 16px;font-size:.85rem}
+.lead{font-weight:700;color:var(--soft);line-height:1.55;font-size:1.12rem;max-width:34em;margin:0 auto 22px}
+.cta{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:28px}
+a.btn{display:inline-block;text-decoration:none;font-weight:800;padding:16px 28px;border-radius:999px;
+  background:linear-gradient(120deg,#ff7ab8,#b48cff);color:#fff;box-shadow:0 12px 28px rgba(180,80,140,.3)}
+a.btn.sec{background:#fff;color:var(--ink);border:2px solid rgba(255,142,200,.45);box-shadow:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:24px 0}
+.card{background:rgba(255,255,255,.9);border:2px solid rgba(255,142,200,.35);border-radius:18px;padding:14px;font-weight:800;font-size:.92rem;color:var(--soft)}
+.card b{display:block;color:var(--ink);font-size:1.05rem;margin-bottom:4px}
+.tiers{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:20px 0}
+.tiers img{width:56px;height:56px;object-fit:contain;filter:drop-shadow(0 6px 10px rgba(180,70,140,.25))}
+footer{margin-top:28px;color:var(--soft);font-weight:700;font-size:.9rem}
+footer a{color:#c46b9a}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="icon" src="icon-512.png" alt="Squish Merge icon" />
+    <h1>Squish Merge</h1>
+    <div class="tag">Drop · Merge · Soften</div>
+    <p class="lead">A cozy Suika-style merge puzzle with original kawaii squishies, jelly physics, combos, and a collectible cast — free in your browser, installable as a PWA.</p>
+    <div class="cta">
+      <a class="btn" href="./index.html">Play Free</a>
+      <a class="btn sec" href="https://quantumdeprivation61158-ops.github.io/squish-merge/">Live URL</a>
+    </div>
+    <div class="tiers">
+      <img src="assets/characters/tier0.png" alt="" /><img src="assets/characters/tier2.png" alt="" />
+      <img src="assets/characters/tier4.png" alt="" /><img src="assets/characters/tier6.png" alt="" />
+      <img src="assets/characters/tier8.png" alt="" /><img src="assets/characters/tier10.png" alt="" />
+    </div>
+    <div class="grid">
+      <div class="card"><b>11 tiers</b>Original character art</div>
+      <div class="card"><b>PWA</b>Offline + home screen</div>
+      <div class="card"><b>Mobile-first</b>Thumb-friendly controls</div>
+      <div class="card"><b>No account</b>Local high scores</div>
+    </div>
+    <p class="lead" style="font-size:1rem">On phone: open Play → browser menu → <b>Add to Home Screen</b>.</p>
+    <footer>
+      Part of <a href="https://quantumdeprivation61158-ops.github.io/ether-arcade/">Ether Arcade</a>
+      · <a href="ITCH_LISTING.md">itch listing copy</a>
+      · <a href="privacy.html">Privacy</a>
+    </footer>
+  </div>
+</body>
+</html>

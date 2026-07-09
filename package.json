@@ -1,0 +1,16 @@
+{
+  "name": "squish-merge",
+  "version": "1.0.0",
+  "description": "Squish Merge — cute drop-and-merge puzzle game",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve -l 4173 .",
+    "build:web": "echo \"Static web build — copy folder to any host\"",
+    "cap:init": "npx --yes @capacitor/cli@latest init \"Squish Merge\" com.yourstudio.squishmerge --web-dir .",
+    "cap:add:ios": "npx --yes @capacitor/cli@latest add ios",
+    "cap:add:android": "npx --yes @capacitor/cli@latest add android",
+    "cap:sync": "npx --yes @capacitor/cli@latest sync"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
